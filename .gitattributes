@@ -1,6 +1,2 @@
-echo "* text=auto" > .gitattributes
-echo "*.bat text eol=crlf" >> .gitattributes
-echo "*.sh text eol=lf" >> .gitattributes
-echo "*.jpg binary" >> .gitattributes
-echo "*.png binary" >> .gitattributes
-echo "*.gif binary" >> .gitattributes
+# Auto detect text files and perform LF normalization
+* text=auto
