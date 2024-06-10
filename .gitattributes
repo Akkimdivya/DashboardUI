@@ -1,13 +1,6 @@
-# Set the default behavior, in case people don't have core.autocrlf set.
-* text=auto
-
-# Declare files that will always have CRLF line endings on checkout.
-*.bat text eol=crlf
-
-# Declare files that will always have LF line endings on checkout.
-*.sh text eol=lf
-
-# Denote all files that are truly binary and should not be modified.
-*.jpg binary
-*.png binary
-*.gif binary
+echo "* text=auto" > .gitattributes
+echo "*.bat text eol=crlf" >> .gitattributes
+echo "*.sh text eol=lf" >> .gitattributes
+echo "*.jpg binary" >> .gitattributes
+echo "*.png binary" >> .gitattributes
+echo "*.gif binary" >> .gitattributes
